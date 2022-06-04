@@ -15,7 +15,7 @@ class Rectangle:public Shape
     float length;
     float breadth;
     public:
-    Rectangle(int l=1,int b=1){length=1;breadth=b;}
+    Rectangle(int l=1,int b=1){length=l;breadth=b;}
 
     float area(){ return length*breadth;}
     float perimeter(){return 2*(length+breadth);}
